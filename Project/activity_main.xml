@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8FF">
+
+    <!-- 앱 제목 -->
+    <TextView
+        android:text="🎬 CulturePick+"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- 장르 선택 Spinner -->
+    <Spinner
+        android:id="@+id/spinnerGenre"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/spinner_background"
+        android:padding="12dp"
+        android:popupBackground="#FFFFFF"/>
+
+    <!-- 추천 버튼 -->
+    <Button
+        android:id="@+id/btnRecommend"
+        android:text="🎲 추천 받기"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:paddingHorizontal="36dp"
+        android:paddingVertical="12dp"
+        android:elevation="4dp" />
+</LinearLayout>

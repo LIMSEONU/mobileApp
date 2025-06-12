@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF8FF"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/bg_memo"
+        android:contentDescription="노트 이미지"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="예: Android Homework ~5/16"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="3"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="저장하기"
+            android:backgroundTint="#8E44AD"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="찾기"
+            android:backgroundTint="#8E44AD"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button" />
+
+        <Button
+            android:id="@+id/btnViewAll"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="전체 목록"
+            android:backgroundTint="#8E44AD"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button" />
+    </LinearLayout>
+</LinearLayout>

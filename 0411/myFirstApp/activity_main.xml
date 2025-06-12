@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동의과학대학교"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시간표 보기" />
+    <Button
+        android:id="@+id/btnTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="과제 보기"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btnCafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="학식 / 학교 정보"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btnNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="개인 메모 / 노트"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설정"
+        android:layout_marginTop="64dp" />
+
+</LinearLayout>

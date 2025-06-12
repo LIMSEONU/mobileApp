@@ -1,4 +1,4 @@
-# 📄 AndroidManifest.xml 및 그래프 구현 설명
+# 📄 디지털 디톡스 설문조사 앱
 
 이 문서는 설문조사 앱 `surveyapp`의 AndroidManifest.xml 설정과 결과 화면에 그래프를 구현하기 위한 방법을 포함합니다.
 

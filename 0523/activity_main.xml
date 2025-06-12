@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7F9FB"
+    android:padding="16dp">
+
+    <!-- 💫 현재 시각 표시 -->
+    <TextView
+        android:id="@+id/currentTimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="현재 시각"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/time_box"
+        android:elevation="6dp" />
+
+    <!-- ✅ 할 일 목록 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="4dp" />
+
+    <!-- ➕ 추가 버튼 -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="＋ 알림 추가하기"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6A5ACD"
+        android:layout_marginTop="12dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/rounded_button" />
+
+</LinearLayout>
